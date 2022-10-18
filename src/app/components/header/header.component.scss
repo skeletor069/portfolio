@@ -1,0 +1,17 @@
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.links{
+  display: flex;
+}
+
+.menu-item{
+  margin-left: 1rem;
+}
