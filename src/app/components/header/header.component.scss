@@ -16,8 +16,9 @@
 .menu-item{
   margin-left: 1rem;
   cursor: pointer;
+  color:gray;
 }
 
 .menu-active{
-  border-bottom: 1px solid gray;
+  color: black;
 }

@@ -1,1 +1,8 @@
-<p>skills works!</p>
+<div class="skill-container" fxLayout="row wrap" fxLayoutGap="16px grid">
+  <div class="skill-box" *ngFor="let skill of allSkills" fxFlex="25%">
+    <div class="skill-title">{{skill.title}}</div>
+    <div class="skill-body" *ngFor="let item of skill.skillItems">
+      <div class="skill-item">{{item.name}}</div>
+    </div>
+  </div>
+</div>
